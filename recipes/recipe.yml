@@ -27,6 +27,7 @@ modules:
       - bottles
       - distrobox
       - adw-gtk3-theme
+      - gnome-extensions-app
       - steam
     remove:
       # example: removing firefox (in favor of the flatpak)
@@ -44,6 +45,20 @@ modules:
       install:
         # - org.mozilla.firefox
         - org.gnome.Loupe
+        - md.obsidian.Obsidian
+        - com.discordapp.Discord
+        - org.gnome.Calendar
+        - org.gnome.Weather
+        - org.gnome.Evince
+        - org.gnome.Firmware
+        - org.gnome.TextEditor
+        - com.spotify.Client
+        - io.bassi.Amberol
+        - com.github.johnfactotum.Foliate
+        - flatpak run io.mpv.Mpv
+        - org.prismlauncher.PrismLauncher
+        - org.qbittorrent.qBittorrent
+        - com.github.tchx84.Flatseal
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
