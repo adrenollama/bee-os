@@ -23,10 +23,11 @@ modules:
       # - micro
       # - starship
       #- steam
-      #- mangohud
-      #- gamescope
-      #- bottles
-      #- distrobox
+      - mangohud
+      - gamescope
+      - bottles
+      - distrobox
+      - adw-gtk3-theme
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
