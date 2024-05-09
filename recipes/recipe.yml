@@ -27,6 +27,7 @@ modules:
       - bottles
       - distrobox
       - adw-gtk3-theme
+      - libmount
       - steam
     remove:
       # example: removing firefox (in favor of the flatpak)
