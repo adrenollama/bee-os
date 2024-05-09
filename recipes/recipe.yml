@@ -26,6 +26,7 @@ modules:
       - gamescope
       - bottles
       - distrobox
+      - fastfetch
       - adw-gtk3-theme
       - gnome-extensions-app
       - steam
