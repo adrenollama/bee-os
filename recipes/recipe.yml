@@ -40,34 +40,34 @@ modules:
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
-      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      # repo-name: flathub
-      # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+       repo-name: flathub
+       repo-title: "Flathub (system)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         # - org.mozilla.firefox
-        org.gnome.baobab
-        org.gnome.Calculator
-        org.gnome.Calendar
-        org.gnome.Characters
-        org.gnome.clocks
-        org.gnome.Connections
-        org.gnome.Contacts
-        org.gnome.Evince
-        org.gnome.Firmware
-        org.gnome.Logs
-        org.gnome.Loupe
-        org.gnome.Maps
-        org.gnome.TextEditor
-        org.gnome.Weather
-        com.spotify.Client
-        io.bassi.Amberol
-        com.github.johnfactotum.Foliate
-        flatpak run io.mpv.Mpv
-        org.prismlauncher.PrismLauncher
-        org.qbittorrent.qBittorrent
-        com.github.tchx84.Flatseal
-        md.obsidian.Obsidian
-        com.discordapp.Discord
+        - org.gnome.baobab
+        - org.gnome.Calculator
+        - org.gnome.Calendar
+        - org.gnome.Characters
+        - org.gnome.clocks
+        - org.gnome.Connections
+        - org.gnome.Contacts
+        - org.gnome.Evince
+        - org.gnome.Firmware
+        - org.gnome.Logs
+        - org.gnome.Loupe
+        - org.gnome.Maps
+        - org.gnome.TextEditor
+        - org.gnome.Weather
+        - com.spotify.Client
+        - io.bassi.Amberol
+        - com.github.johnfactotum.Foliate
+        - flatpak run io.mpv.Mpv
+        - org.prismlauncher.PrismLauncher
+        - org.qbittorrent.qBittorrent
+        - com.github.tchx84.Flatseal
+        - md.obsidian.Obsidian
+        - com.discordapp.Discord
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
