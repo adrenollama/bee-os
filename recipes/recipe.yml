@@ -43,7 +43,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         # - org.mozilla.firefox
-        # - org.gnome.Loupe
+        - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
@@ -52,18 +52,3 @@ modules:
       # - org.gnome.eog
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
-  - type: fonts
-    fonts:
-    nerd-fonts:
-      - FiraCode # don't add spaces or "Nerd Font" suffix.
-      - Hack
-      - SourceCodePro
-      - Terminus
-      - JetBrainsMono
-      - NerdFontsSymbolsOnly
-    google-fonts:
-      - Roboto
-      - Open Sans
-      - Inter
-
