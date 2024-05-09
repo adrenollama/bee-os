@@ -60,7 +60,7 @@ modules:
         - com.spotify.Client
         - io.bassi.Amberol
         - com.github.johnfactotum.Foliate
-        - flatpak run io.mpv.Mpv
+        - io.mpv.Mpv
         - org.prismlauncher.PrismLauncher
         - org.qbittorrent.qBittorrent
         - com.github.tchx84.Flatseal
