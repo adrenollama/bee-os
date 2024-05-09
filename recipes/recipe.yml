@@ -25,7 +25,7 @@ modules:
       - steam
       - mangohud
       - gamescope
-      - bottles
+      #- bottles
       - distrobox
     remove:
       # example: removing firefox (in favor of the flatpak)
