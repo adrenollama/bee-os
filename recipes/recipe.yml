@@ -4,7 +4,7 @@ name: bee-os
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -24,11 +24,9 @@ modules:
       # - starship
       - mangohud
       - gamescope
-      - bottles
       - distrobox
       - fastfetch
-      - adw-gtk3-theme
-      - gnome-extensions-app
+      - kvantum
       - steam
     remove:
       # example: removing firefox (in favor of the flatpak)
@@ -43,24 +41,8 @@ modules:
       repo-name: flathub
       repo-title: Flathub (system)
       install:
-        - org.gnome.baobab
-        - org.gnome.Calculator
-        - org.gnome.Calendar
-        - org.gnome.Characters
-        - org.gnome.clocks
-        - org.gnome.Connections
-        - org.gnome.Contacts
-        - org.gnome.Evince
-        - org.gnome.Firmware
-        - org.gnome.Logs
-        - org.gnome.Loupe
-        - org.gnome.Maps
-        - org.gnome.TextEditor
-        - org.gnome.Weather
         - com.spotify.Client
-        - io.bassi.Amberol
-        - com.github.johnfactotum.Foliate
-        - io.mpv.Mpv
+        - org.kde.haruna
         - org.prismlauncher.PrismLauncher
         - org.qbittorrent.qBittorrent
         - com.github.tchx84.Flatseal
