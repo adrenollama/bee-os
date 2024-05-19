@@ -27,6 +27,7 @@ modules:
       - distrobox
       - virt-manager
       - fastfetch
+      - btop
       - kvantum
       - steam
     remove:
