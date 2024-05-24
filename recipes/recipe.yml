@@ -26,6 +26,9 @@ modules:
       - gamescope
       - distrobox
       - virt-manager
+      - libvirt
+      - libvirt-client
+      - libvirt-nss
       - fastfetch
       - kvantum
       - steam
